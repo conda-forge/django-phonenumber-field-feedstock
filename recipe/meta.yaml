@@ -1,5 +1,5 @@
 {% set name = "django-phonenumber-field" %}
-{% set version = "8.1.0" %}
+{% set version = "8.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_phonenumber_field-{{ version }}.tar.gz
-  sha256: f19450625574ad3a2de047c409527d0e57699496849e71e53b53e8679ff67b27
+  sha256: 193b3acc3b83ff4aad95dd9530a6d01e1c7c1cecbdfa8a56159789bbb85ab0e2
 
 build:
   noarch: python
