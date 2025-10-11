@@ -19,13 +19,13 @@ build:
 
 requirements:
   host:
-    - python ${{ python_min }}
+    - python ${{ python_min }}.*
     - setuptools >=42
     - setuptools-scm >=3.4
     - tomli
     - pip
   run:
-    - python >=${{ python_min }}.*
+    - python >=${{ python_min }}
     - django >=4.2
 
 tests:
