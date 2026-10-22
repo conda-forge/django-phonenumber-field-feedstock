@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: django-phonenumber-field
-  version: "8.5.0"
+  version: "9.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_phonenumber_field-${{ version }}.tar.gz
-  sha256: 19c606fda7bb25630c4913f7ac83c1824186ea17e2e4c6dc9aa9373e8f5843c5
+  sha256: b4a641fc8ae3fdec7aeaf28e3af92bb8d36aefad085b955420807de7e8d37abe
 
 build:
   number: 0
